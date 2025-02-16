@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "stage": "git status && git add ."
   },
   "dependencies": {
     "@heroui/react": "^2.6.14",
